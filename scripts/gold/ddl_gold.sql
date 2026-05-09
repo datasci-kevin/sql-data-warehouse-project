@@ -134,5 +134,5 @@ LEFT JOIN gold.dim_products AS pr
 
 -- Join to Customer Dimension
 LEFT JOIN gold.dim_customers AS cu 
-    ON sd.sls_cust_id = cu.customer_key;
+    ON sd.sls_cust_id = cu.customer_id;
 GO
